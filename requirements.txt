@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+tensorflow
+keras
+holidays   # uncomment if you plan to use holiday features
+SQLAlchemy 
+PyMySQL 
+sqlalchemy 
+requests
