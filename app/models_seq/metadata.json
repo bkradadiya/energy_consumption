@@ -1,0 +1,25 @@
+{
+  "feature_cols": [
+    "temperature",
+    "humidity",
+    "rain",
+    "snowfall",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "hour_sin",
+    "hour_cos",
+    "is_holiday",
+    "is_bank_holiday",
+    "lag_1",
+    "lag_24",
+    "roll3",
+    "roll6",
+    "roll24",
+    "dow"
+  ],
+  "target_col": "value",
+  "timesteps": 168,
+  "output_steps": 24,
+  "n_features": 17
+}
