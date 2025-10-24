@@ -10,12 +10,12 @@ import holidays
 
 # --- DB CONFIG ---
 DATABASE_URL = "mysql+pymysql://flexCOCKPITread:tzUEWdtXdBCv5yyt@192.168.20.9:3306/flexcockpit?charset=utf8mb4"
-IO_ID     = 31
-START_TS  = "2022-05-01 00:00:00"   # <-- set your window
+IO_ID     = 23
+START_TS  = "2022-06-01 00:00:00"   # <-- set your window
 END_TS    = "2025-06-01 00:00:00"
 
 # --- PLANT COORDINATES (set your site!) ---
-LAT, LON = 49.96, 8.27  # example
+LAT, LON = 49.7975, 8.3456  # example
 
 # Germany holidays (you can change to holidays.CountryHoliday('DE', prov='RP') for Rheinland-Pfalz)
 GER_HOLIDAYS = holidays.CountryHoliday('DE', prov='RP')
